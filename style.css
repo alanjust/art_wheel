@@ -1,0 +1,125 @@
+/* style.css - Centered Layout for Art History Wheel Website */
+
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    /* Use a common, readable font */
+    line-height: 1.6;
+    margin: 0;
+    /* Remove default body margins */
+    padding: 0;
+    /* Remove default body padding */
+    background-color: #f4f4f4;
+    /* Light gray background */
+    color: #333;
+    /* Dark gray text */
+}
+
+/* Container for Centering Content */
+.container {
+    width: 80%;
+    /* Set a maximum width for the content */
+    max-width: 1200px;
+    /* Limit the maximum width */
+    margin: 0 auto;
+    /* Center the container horizontally */
+    padding: 20px;
+    background-color: #fff;
+    /* White background for content area */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    /* Center the header text */
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    /* Add a bottom border */
+}
+
+header h1 {
+    margin: 0;
+    /* Remove default margin */
+    font-size: 2.5em;
+    /* Larger font size for the main title */
+}
+
+header p {
+    margin: 5px 0 0 0;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px 0;
+}
+
+/* Navigation Links */
+a {
+    text-decoration: none;
+    color: #007bff;
+    /* Blue link color */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Unordered List Styles */
+ul {
+    list-style: none;
+    /* Remove bullet points */
+    padding: 0;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+/* Image Styles */
+img {
+    max-width: 100%;
+    /* Make images responsive */
+    height: auto;
+    display: block;
+    /* Remove extra space below inline images */
+    margin: 10px auto;
+    /* Center images and add margin */
+}
+
+/* Square Wheel Styles (Grid) */
+.square-wheel {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Two columns */
+    grid-template-rows: repeat(2, 1fr);
+    /* Two rows */
+    gap: 20px;
+    /* Space between grid items */
+    margin: 40px auto;
+    /* Center and add margin */
+}
+
+.top-side,
+.right-side,
+.bottom-side,
+.left-side {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+    color: #666;
+}
+
+/* Specific overrides for artist and artwork pages if needed*/
+.artist-list,
+.artwork-list {
+    text-align: left;
+}
